@@ -198,3 +198,62 @@
     background: rgb(255 255 255 / 20%);
     border: solid 1px #ffffff;
 }
+
+.right_menu {
+    padding: 55px 240px 30px 294px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background: rgb(255 255 255 / 99%) url(../img/bg-right_menu.png);
+    background-blend-mode: soft-light;
+}
+
+.right-menu_desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 36px 0 0;
+    align-self: center;
+
+}
+
+.right-menu_head {
+    font-family: yesevaone-regular;
+    font-size: 36px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #cc9900;
+    margin: 0 0 15px 0;
+}
+
+.right-menu_txt {
+    font-family: lato-regular;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4c4c4c;
+    text-align: center;
+    margin: 32px 0 52px 0;
+}
+
+.right-menu_txt::before {
+    content: "";
+    background-image: url('../img/divider.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 247px;
+    height: 43px;
+    left: 21%;
+    top: -10px;
+    position: relative;
+}
+
+.right-menu_img {
+    margin: 0 0 0 131px;
+
+}
+
+.right-menu_food {
+
+}
