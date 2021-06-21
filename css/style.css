@@ -314,3 +314,38 @@
 .ingrid-img:last-child{
     margin: 0;
 }
+
+
+.menu {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 107px 274px 98px 283px;
+    background: rgb(255 255 255 / 99%) url(../img/pattern_menu.png);
+    background-blend-mode: soft-light;
+    display: flex;
+}
+
+.menu-apps {
+    justify-content: center;
+
+}
+
+.menu-head {
+    font-family: yesevaone-regular;
+    font-size: 36px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #cc9900;
+}
+
+.menu-apps_items {
+
+}
+
+.menu-apps_list {
+
+}
+
+.menu_price {
+    
+}
