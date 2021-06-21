@@ -272,8 +272,7 @@
     flex-wrap: wrap;
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode: darken;
-    background: rgb(255 255 255 / 99%) url(../img/bg_desc_ingr.png);
+    background: rgb(0 0 0 / 44%);
 }
 
 .ihgrid-head {
