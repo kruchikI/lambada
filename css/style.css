@@ -322,11 +322,9 @@
     padding: 107px 274px 98px 283px;
     background: rgb(255 255 255 / 99%) url(../img/pattern_menu.png);
     background-blend-mode: soft-light;
-    display: flex;
 }
 
 .menu-apps {
-    justify-content: center;
 
 }
 
@@ -338,14 +336,24 @@
     color: #cc9900;
 }
 
-.menu-apps_items {
+.menu_table {
+    border-collapse: collapse;
 
 }
 
-.menu-apps_list {
-
+.menu_border {
+    box-sizing: border-box;
+    border-bottom: solid 0.1px #fbf7c0;
 }
 
-.menu_price {
-    
+td {
+    padding: 0 0 10px 0;
+}
+
+.menu_name {
+    font-family: yesevaone-regular;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #c89f2d;
 }
