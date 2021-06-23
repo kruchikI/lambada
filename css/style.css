@@ -324,8 +324,25 @@
     background-blend-mode: soft-light;
 }
 
-.menu-apps {
+.menu_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 
+}
+
+.menu-apps {
+    margin: 0 169px 0 0;
+
+}
+
+.menu-apps:nth-child(2) {
+    margin: 0;
+}
+
+.menu-apps:nth-child(4) {
+    margin: 0;
 }
 
 .menu-head {
@@ -347,7 +364,7 @@
 }
 
 td {
-    padding: 0 0 10px 0;
+    padding: 8px 0 10px 0;
 }
 
 .menu_name {
@@ -356,4 +373,5 @@ td {
     line-height: 24px;
     font-weight: 400;
     color: #c89f2d;
+    padding: 20px 0 8px 0;
 }
