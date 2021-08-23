@@ -11,7 +11,7 @@
 ::before,
 ::after,
 :active{
-    flex-wrap: .2s;
+    transition: 0.2s;
 }
 
 .container {
@@ -268,11 +268,11 @@
 .ingrid-desc {
     padding: 83px 81px 78px 80px;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     background-size: cover;
     background-repeat: no-repeat;
     background: rgb(0 0 0 / 44%);
+    justify-content: center;
 }
 
 .ihgrid-head {
@@ -383,4 +383,230 @@ td {
     font-weight: 400;
     color: #c89f2d;
     padding: 20px 0 8px 0;
+}
+
+.reviews { 
+    background-image: url(../img/bg_reviews.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 415px 100px 415px;
+ }
+
+.reviews_txt {
+    padding: 82px 74px 103px 74px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: rgb(0 0 0 / 60%);
+}
+
+.reviews_head {
+    font-family: yesevaone-regular;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 0 70px 0;
+    position: relative;
+}
+
+.reviews_head::after {
+    content: "";
+    background-image: url(../img/divider_ingr.png);
+    background-repeat: no-repeat;
+    width: 247px;
+    height: 24px;
+    top: 66px;
+    display: block;
+    position: absolute;
+    left: -13px;
+}
+
+.reviews_text {
+    font-size: 96px;
+    line-height: 0.47;
+    text-align: center;
+    color: #f2f4f4;
+    margin: 0;
+    position: relative;
+}
+
+
+.reviews_text::before {
+    content: "\201C";
+    font-family: lato-regular;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 96px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #f2f4f4;
+    left: -40px;
+    top: -1px;
+}
+
+.reviews_desc {
+    font-family: gentiumbasic-bold;
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #dde0df;
+    margin: 0 0 30px 0;
+}
+
+.reviews_author {
+    font-family: lato-regular;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.right-food {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 107px 274px 98px 283px;
+    background: rgb(255 255 255 / 99%) url(../img/pattern_menu.png);
+    background-blend-mode: soft-light;
+}
+
+
+.right-food_wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.right-food_wrap {
+    display: flex;
+    margin: 0 70px 0 0;
+
+}
+
+.right-food_img {
+    margin: 0 30px 0 0;
+    width: 270px;
+    height: 507px;
+
+}
+
+.right-food_desc {
+
+}
+
+.right-food_title {
+    font-family: yesevaone-regular;
+    font-size: 36px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #cc9900;
+    margin: 0 0 70px 0;
+    text-align: center;
+    position: relative;
+}
+
+.right-food_title::before {
+    content: "";
+    background-image: url(../img/divider.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 247px;
+    height: 43px;
+    left: 24%;
+    top: 44px;
+    position: absolute;
+}
+
+.right-food_txt {
+    text-align: center;
+    font-family: lato-regular;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4c4c4c;
+    margin: 0;
+}
+
+
+.right-food_txt:nth-child(3) {
+}
+
+input {
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+input:focus {
+  border: solid 1px #c89f2d;
+}
+
+form {
+    margin: 36px 0 0 0;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    padding: 0;
+}
+
+label {
+    font-family: lato-regular;
+    font-size: 14px;
+    font-weight: bold;
+    color: #c9a131;
+}
+
+label:nth-child(1) {
+    margin: 0 36px 0 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"] {
+    border: solid 1px #c8c6c6;
+    background-color: #fff;
+    height: 36px;
+    width: 200px;
+    font-family: lato-regular;
+    font-size: 16px;
+    font-style: italic;
+    color: #7c7c7c;
+    padding: 0 0 0 14px;
+    margin: 10px 0 0 0;
+}
+
+input[type="text"],
+input[type="email"] {
+    margin: 10px 0 29px 0;
+}
+
+input[type="submit"] {
+    padding: 11px 60px 12px 63px;
+    border: solid 1px #c89f2d;
+    background-color: #c89f2d;
+    font-family: OpenSans;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 33px auto 0 auto;
+    display: block;
+}
+
+input[type="submit"]:hover {
+  background-color: #000;
+  cursor: pointer;
+  border: 1px solid #c89f2d;
+}
+
+input[type="submit"]:active {
+  background-color: #c89f2d;
+  cursor: pointer;
+  border: 1px solid #c89f2d;
 }
