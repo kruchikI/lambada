@@ -600,13 +600,105 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #000;
-  cursor: pointer;
-  border: 1px solid #c89f2d;
+    background-color: #000;
+    cursor: pointer;
+    border: 1px solid #c89f2d;
 }
 
 input[type="submit"]:active {
-  background-color: #c89f2d;
-  cursor: pointer;
-  border: 1px solid #c89f2d;
+    background-color: #c89f2d;
+    cursor: pointer;
+    border: 1px solid #c89f2d;
+}
+
+.footer {
+    padding: 61px 299px 21px 229px;
+    background-color: #191919;
+}
+
+.about_wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about {
+    max-width: 343px;
+}
+
+.about_heading, .open_heading, .location_heading {
+    font-family: yesevaone-regular;
+    font-size: 21px;
+    line-height: 1.14;
+    text-align: center;
+    color: #fefefe;
+    margin: 0 0 63px 0;
+    position: relative;
+}
+
+.about_heading::after {
+    content: "";
+    background-image: url(../img/divider_ingr.png);
+    background-repeat: no-repeat;
+    width: 247px;
+    height: 24px;
+    top: 40px;
+    display: block;
+    position: absolute;
+    left: 48px;
+}
+
+.open_heading::after {
+    content: "";
+    background-image: url(../img/divider_ingr.png);
+    background-repeat: no-repeat;
+    width: 247px;
+    height: 24px;
+    top: 40px;
+    display: block;
+    position: absolute;
+    left: -23px;
+}
+
+.location_heading::after {
+    content: "";
+    background-image: url(../img/divider_ingr.png);
+    background-repeat: no-repeat;
+    width: 247px;
+    height: 24px;
+    top: 40px;
+    display: block;
+    position: absolute;
+    left: -37px;
+}
+
+.about_txt, .open_txt, .location_txt {
+    font-family: yesevaone-regular;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.open {
+    max-width: 195px;
+    text-align: center;
+}
+
+.open_txt {
+    margin: 0 0 53px 0;
+}
+
+.open_img {
+
+}
+
+.location {
+    max-width: 200px;
+    text-align: center;
+}
+
+.location_txt {
+    margin: 0 0 52px 0;
 }
